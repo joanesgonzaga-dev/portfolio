@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script>
+        $(function() {
+           $("#menu").load("menu.html");
+           $("#footer").load("footer.html");
+        });
+     </script>
+    <title>Fale comigo!</title>
+</head>
+<body>
+    <div id="menu"></div>
+    <h1>Contato</h1>
+    <blockquote id="texto-formatado">
+        Envie um SMS para mim!
+    <form>
+        <label>Nome: </label><input type="text" width="120px" />
+        <label>Email:</label><input type="text" width="120px" />
+
+    </form>
+    </blockquote>
+    <div id="footer"></div>
+</body>
+</html>
